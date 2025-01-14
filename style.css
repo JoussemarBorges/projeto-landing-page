@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  font-family: "inter";
+}
+
+#logo {
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+#titulo-menuSuperior {
+  margin-top: 50px;
+  margin-left: 150px;
+}
+
+#texto-menuSuperior {
+  margin-top: 35px;
+  margin-left: 150px;
+  padding-bottom: 100px;
+}
+
+#menu-superior {
+  background-image: url(imagens/fundo-menuSuperior.svg);
+  color: aliceblue;
+}
+
+#menu-informacional {
+  background-color: #eaece5;
+  display: grid;
+  grid-auto-flow: column;
+  columns: auto;
+}
+
+#secaoVideo {
+  display: grid;
+  grid-auto-flow: column;
+  columns: auto;
+}
+
+.icone {
+  margin: 50px 0px 50px 100px;
+  padding: 25px;
+}
+
+.textoInformativo {
+  display: flex;
+  align-items: center;
+}
+
+#tituloVIdeo {
+  color: #247ba0;
+  margin-top: 50px;
+}
+
+#video {
+  margin: 50px 25px 50px 100px;
+}
+
+#carrossel {
+  background-color: #247ba0;
+  padding: 50px;
+}
+
+#tituloCarrossel {
+  color: #eaece5;
+  text-align: center;
+  font-size: 25px;
+  padding: 25px;
+}
+
+#cards-Depoimentos {
+  display: grid;
+  grid-auto-flow: column;
+}
+
+.card {
+  margin-left: 50px;
+}
+
+#seta-esquerda {
+  display: none;
+}
+
+#bruna {
+  display: none;
+}
+
+.seta {
+  margin-top: 60%;
+  cursor: pointer;
+}
+
+.seta:hover {
+  transform: translatey(-7px);
+  transition: 0.5s;
+}
+
+#formulario {
+  text-align: center;
+}
+
+#tituloFormulario {
+  font-size: 25px;
+  margin: 25px;
+  color: #383838;
+}
+
+input {
+  margin: 15px;
+  color: #383838;
+  background-color: #eaece5;
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  width: 300px;
+  padding: 10px;
+  font-size: 12px;
+}
+
+button {
+  margin-bottom: 50px;
+  color: #ffffff;
+  background-color: #247ba0;
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  width: 250px;
+  font-size: 16px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #318fb8;
+  color: white;
+  transform: translateY(-4px);
+  box-shadow: 0px 15px 20px #05103057;
+  transition-duration: 0.5s;
+}
